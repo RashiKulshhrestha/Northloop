@@ -13,7 +13,7 @@ class RapidApiClient{
     constructor(method, uri, queryParams, requestHeaders){
         this.requestObject = {
             "method" : method,
-            "uri" : uri,
+            "url" : uri,
             "params": queryParams,
             "headers" : requestHeaders
         }
@@ -32,4 +32,4 @@ class RapidApiClient{
     }
 }
 
-module.exports = RapidApiClient;
+module.exports = RapidApiClient
